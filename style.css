@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a{
+    text-decoration: grey;
+    color: whitesmoke;
+}
+.navigation{
+    background-color: grey;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    
+}
+.top-left{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    color: thistle;
+    font-size: 80px;
+    padding: 30px;
+}
+#background{
+    margin-bottom: 50px;
+}
+.team_img{
+    display: inline-flex;
+    border-radius: 50%;
+}
+.team{
+    margin-right: 50px;
+    
+    margin-left: 400px;
+}
+.section2 {
+    margin-top: 20px;
+}
+
+.sec2content {
+    display: inline-flex;
+}
+
+.main {
+    background-color: grey;
+    color: white;
+    width: 1500px;
+    
+
+    text-align: center;
+    margin: 4px;
+}
+
+.article {
+    background-color: red ;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding: 65px;
+    width: 1390px;
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+#article1{
+    font-size: 30px;
+}
+#article2{
+    font-size: 30px;
+    
+}
+#article3{
+    margin-bottom: 4px;
+    font-size: 30px;
+}
+#container {
+    display: inline-flex;
+}
+
+.box {
+    width: 690px;
+    background-color: white;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 10px;
+    
+}
+
+.heading {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.content {
+    text-align: justify;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+button {
+    width: 500px;
+    background-color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    
+}
+
+button:hover {
+    background-color: teal;
+}
